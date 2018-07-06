@@ -636,13 +636,6 @@ d = df[dec_mask]
 d['sentiment'] = d['sent_what'].map(lambda x : get_sentiment(x))
 ```
 
-    /home/vamsi/.conda/envs/my_env27/lib/python2.7/site-packages/ipykernel/__main__.py:5: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-
-
 #### 4.3.2 Messages with Positive Sentiment
 
 
