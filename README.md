@@ -1,13 +1,13 @@
 
 # This Notebook illustrates how to analyse a Whatsapp group conversation and analyse sentiment
 
-** How do we do this **
+__How do we do this__
 1. Retrieve conversation from a Whatsapp Group Chat as text file
 2. Interpret structure of the conversations and build regular expressions to break down in to tokens
 3. Parse content and build a Pandas dataframe to analyse
 4. Invoke Google Natural Language API to analyse sentiments
 
-** What Python features are used **
+__What Python features are used__
 This notebook explores the following features of Python
 + Regular Expressions
 + Pandas Data Frames
@@ -708,19 +708,7 @@ d[d['sentiment'] > 0.5 ][6:10]
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -797,19 +785,7 @@ d[d['sentiment'] < -0.2 ][6:8]
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
